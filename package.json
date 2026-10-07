@@ -1,0 +1,20 @@
+{
+  "name": "labbunding",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "rollup-plugin-visualizer": "^7.1.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3",
+    "vite-plugin-compression2": "^2.5.3"
+  }
+}
